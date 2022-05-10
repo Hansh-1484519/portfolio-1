@@ -31,7 +31,7 @@ const Nav = () => {
 
     return (
         <div className="navContainer">
-            <NavHashLink smooth to="/portfolio#home" style={{textDecoration: "none", color: "black"}}><p className="name">Beth Ding</p></NavHashLink>
+            <NavHashLink smooth to="/portfolio#home" style={{textDecoration: "none", color: "black"}}><p className="name">Hansh Raj Sharma</p></NavHashLink>
             <div className="navOptContainer">
                 <NavHashLink smooth to="/portfolio#home" className={`navOpt ${path==="#home" && "select"}`}>HOME</NavHashLink>
                 <NavHashLink smooth to="/portfolio#skill" className={`navOpt ${path==="#skill" && "select"}`}>SKILL</NavHashLink>
@@ -81,8 +81,8 @@ const Nav = () => {
                 </MenuItem> 
             </Menu>
             <div className="mediaOptContainer">
-                <a href="https://www.linkedin.com/in/beth-ding/"><LinkedInIcon className="mediaIcon linkedIn" /></a>
-                <a href="https://github.com/WenrrrBeth"><GitHubIcon className="mediaIcon github" /></a>
+                <a href="https://www.linkedin.com/in/hansh-raj-sharma-239854190/"><LinkedInIcon className="mediaIcon linkedIn" /></a>
+                <a href="https://github.com/Hansh-1484519"><GitHubIcon className="mediaIcon github" /></a>
                 <a href={bdresume}><img className="mediaIcon resume" src="https://img.icons8.com/material/96/000000/open-resume--v1.png" alt=""/></a>
             </div>
         </div>
