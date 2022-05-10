@@ -1,7 +1,7 @@
 import React from "react";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import bdresume from "../../../files/BethD_resume.pdf";
+import bdresume from "../../../files/resume_Hansh_Raj_Sharma.pdf";
 
 const Contact = () => {
     return (

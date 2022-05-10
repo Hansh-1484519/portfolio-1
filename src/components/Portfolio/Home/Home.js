@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import eduImg from "../../../images/education-diplay.jpeg";
-import profileImg from "../../../images/profile_img.jpg";
+import profileImg from "../../../images/profile_img.jpeg";
 import webDevImg from "../../../images/webDev_display.jpeg";
 import mobileDevImg from "../../../images/mobile_display.jpeg";
 import otherImg from "../../../images/other_display.jpeg";
 import blogImg from "../../../images/blog_display.jpeg";
-import bdresume from "../../../files/BethD_resume.pdf";
+import bdresume from "../../../files/resume_Hansh_Raj_Sharma.pdf";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
@@ -77,26 +77,26 @@ const Home = () => {
                 <div className="leftContentContainer">
                     <div className="nameContainer">
                         <p className="subText top">Welcome to</p>
-                        <p className="homeName">BETH W. DING<span style={{fontSize: "25px", color: "lightgray"}}> 's</span></p>
+                        <p className="homeName">Hansh Raj Sharma<span style={{fontSize: "15px", color: "lightgray"}}> 's</span></p>
                         <p className="subText bottom">Portfolio</p>
                     </div>
                     <div className="connectContainer">
                         <img className="connectProfileImg" src={profileImg} alt="" />
                         <div className="connectInfo">
                             <div className="email">
-                                <strong>email:</strong><a href="mailto:bethding0923@gmail.com" className="myemail">bethding0923@gmail.com</a>
+                                <strong>email:</strong><a href="mailto:hanshrajsharmamax360@gmail.com" className="myemail">hanshrajsharmamax360@gmail.com</a>
                             </div>
                             <div className="media">
-                                <a href="https://www.linkedin.com/in/beth-ding/"><LinkedInIcon className="mediaIcon linkedIn" /></a>
-                                <a href="https://github.com/WenrrrBeth"><GitHubIcon className="mediaIcon github" /></a>
+                                <a href="https://www.linkedin.com/in/hansh-raj-sharma-239854190/"><LinkedInIcon className="mediaIcon linkedIn" /></a>
+                                <a href="https://github.com/Hansh-1484519"><GitHubIcon className="mediaIcon github" /></a>
                                 <a className="text resume" href={bdresume}>View Resume</a>
                             </div>
                         </div>
                     </div>
                     <div className="desc">
-                        I am a Bachlor of Science student double majoring in Computer Science and Mathematics.
-                        I am passionate about software engineering and deep learning.
-                        I am a good team player and am familiar with team management styles such as scrum and kanban.
+                        I am a Bachlor of Technology student in National Institute of Technology Raipur.
+                        I am passionate about software engineering and Machine learning.
+                        I am a good team player and am familiar with software development lifecycle and agile methode of working.
                     </div>
                 </div>
             </div>

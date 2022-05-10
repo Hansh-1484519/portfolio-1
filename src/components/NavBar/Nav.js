@@ -3,7 +3,7 @@ import { useLocation, useHistory } from "react-router-dom";
 import "./Nav.css";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import bdresume from "../../files/BethD_resume.pdf";
+import bdresume from "../../files/resume_Hansh_Raj_Sharma.pdf";
 import { NavHashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
