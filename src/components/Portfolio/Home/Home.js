@@ -20,7 +20,7 @@ const Home = () => {
         {
             img: eduImg,
             title: "Education",
-            desc: "\nSchool:\nUniversity of Alberta\n\n Degree:\nBachlor of Science\n\nMajor:\nComputer Science and Mathematics",
+            desc: "\nSchool:\nNational Institute of Technology, Raipur\n\n Degree:\nBachlor of Technology\n\nMajor:\nMining Engineering",
             href: "/portfolio#skill"
         },
         {
@@ -31,14 +31,14 @@ const Home = () => {
         },
         {
             img: mobileDevImg,
-            title: "Mobile Development Projects",
-            desc: "Checkout the mobile development project that I have written in Java.",
+            title: "Basic Projects",
+            desc: "Checkout the development project that I have written in JavaScript.",
             href: "/portfolio#mobileprj"
         },
         {
             img: otherImg,
-            title: "Other Projects",
-            desc: "\n\n\n\nHere are some other porjects like Visual Recognition with DNN, small games using RPG Makaer, etc. that I have done.",
+            title: "Machine Learning Projects",
+            desc: "\n\n\n\nHere are some Machine learning projects, like customer behavior segmentation using KMeans clustering algorithm, Startups profitability prediction",
             href: "/portfolio#otherprj"
         }
     ]

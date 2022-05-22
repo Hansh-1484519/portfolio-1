@@ -37,21 +37,19 @@ const Skill = () => {
             list: [
                 {name: "HTML", badge: html, nameColor: "orange"},
                 {name: "CSS", badge: css},
-                {name: "Java", badge: java, badgeColor: "lightgray", nameColor: "#ff6363"},
                 {name: "JavaScript", badge: javascript, nameColor: "#d9c548"},
                 {name: "TypeScript", badge: typescript},
                 {name: "Python", badge: python},
                 {name: "C++", badge: cpp, badgeColor: "lightgray", nameColor: "#555"},
+                {name: "Node.js", badge: java, badgeColor: "lightgray", nameColor: "#ff6363"},
                 {name: "SQL", badge: sql, badgeColor: "lightgray"},
-                {name: "MatLab", badge: matlab, nameColor: "orange"},
-                {name: "Bash", badge: bash, badgeColor: "lightgray"},
             ],
         },
         {
             title: "Spoken Language",
             list: [
                 {name: "English", textColor: "black"},
-                {name: "Mardarin", textColor: "black"},
+                {name: "Hindi", textColor: "black"},
             ]
         } 
     ]
@@ -60,9 +58,8 @@ const Skill = () => {
         {
             title: "Web Development",
             list : [
-                {name: "React", badge: react, nameColor: "#4fd6cf"},
-                {name: "Angular", badge: angular, nameColor: "#ff6363"},
-                {name: "Django", badge: django, nameColor: "green"},
+                {name: "JavaScript", badge: javascript, nameColor: "#4fd6cf"},
+                {name: "React", badge: react, nameColor: "#ff6363"},
                 {name: "Node", badge: node, badgeColor: "lightgray"},
                 {name: "Express", badge: express, badgeColor: "beige", nameColor: "#52a854"},
             ],
@@ -79,7 +76,7 @@ const Skill = () => {
         {
             title: "Mobile Development",
             list: [
-                {name: "Android Studio", badge: androidstudio}
+                {name: "-", badge: androidstudio}
             ],
         },
         {
@@ -97,25 +94,25 @@ const Skill = () => {
             list: [
                 {name: "Agile", textColor: "black"},
                 {name: "Scrum", textColor: "black"},
-                {name: "Kanban", textColor: "black"},
+                {name: "-", textColor: "black"},
             ],
         },
         {
             title: "Machine Learning",
             list: [
-                {name: "Pytorch", badge: pytorch, badgeColor: "lightgray", nameColor: "#cf5600"},
-                {name: "Numpy", badge: numpy},
-                {name: "Deep Neural Network", badge: dnn, badgeColor: "lightgray", nameColor: "#00c8ff"}
+                {name: "supervised learning techniques", badge: sql, badgeColor: "lightgray", nameColor: "#cf5600"},
+                {name: "Unsupervised learning techniques", badge: numpy},
+                {name: "-", badge: dnn, badgeColor: "lightgray", nameColor: "#00c8ff"}
             ],
         },
         {
             title: "Relevant Coursework",
             list: [
-                {name: "Software Process", textColor: "black"},
-                {name: "Visual Recognision", textColor: "black"},
-                {name: "Algorithm", textColor: "black"},
+                {name: "SDLC", textColor: "black"},
+                {name: "Machine Learning", textColor: "black"},
+                {name: "Data Structures and Algorithm", textColor: "black"},
                 {name: "Database Management", textColor: "black"},
-                {name: "Linear Algebra", textColor: "black"},
+                {name: "Web Technology", textColor: "black"},
                 {name: "Calculus", textColor: "black"},
                 {name: "Differential Equations", textColor: "black"},
             ]
