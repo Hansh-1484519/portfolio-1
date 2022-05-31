@@ -1,37 +1,36 @@
 import uofAHospital from "../../../images/employer/uofahospital-logo.png";
 import teamupsci from "../../../images/employer/teamup-logo.png";
 import intrap from "../../../images/employer/intrap-logo.png";
-import ghostlab from "../../../images/employer/Ghostlab-logo.png";
+import ghostlab from "../../../images/employer/Ghostlab-logo.jpg";
 
 export const expData = [
     {
         id: 4,
-        employer: "Ghost Lab",
+        employer: "HCL Software",
         employerImg: {
             img: ghostlab,
             bkgColor: "#474044"
         },
-        jobTitle: "Full Stack Student Web Developer",
-        date: "01/2021 - 04/2021",
+        jobTitle: "Foundation Training and Certification on Test Automation",
+        date: "10/2021 - 12/2021",
         descs: [
-            "Creating a project that build a new self-contained module for an existing system which enables users to create and use promo codes on Bitcoin Well's ATM Machines",
-            "Full stack web development using language TypeScript, libraries Angular, Express, NestJS, and database PostgreSQL",
-            "Website testing",
+            "Understood software development life cycle, different SDLC models, software testing life cycle, Manual testing , Automation testing and hands on experience on HCl One Test UI tool",
+            "Tested a web application and a desktop application using the HCL One Test UI tool and loged the found errors.",
         ]
     },
     {
         id: 3,
-        employer: "University of Alberta Hospital",
+        employer: "Zero to Mastery",
         employerImg: {
             img: uofAHospital,
             bkgColor: "#2E3O47"
         },
-        jobTitle: "Volunteer at Division of CT scan/Cardiology/Emergency",
-        date: "05/2018 - 03/2020",
+        jobTitle: "Complete web developer in 2021: Course",
+        date: "04/2021 - 09/2021",
         descs: [
-            "Leading patients to the right places",
-            "Making sure that patients are feeling as comfortable as possible",
-            "Organizing and delivering files; Storage stock up"
+            "Understood basics of web development by following this course",
+            "Worked on some personal projects like react-blog, smart-brains after completing this course.",
+            "Understood backend development and api development."
         ]
     },
     {

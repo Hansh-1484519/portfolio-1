@@ -6,20 +6,19 @@ import chatterbox_demo from "../../../../images/project/chatterbox_demo.gif";
 export const othprjData = [
     {
         id: 1,
-        name: "Image Detection and Classification on MNISTDD datasets",
-        tags: [{name: "Machine Learning", color: "pink"}, {name: "Deep Learning", color: "lightblue"}, {name: "Visual Recognition", color: "#83ccbb"}],
-        github: "https://github.com/WenrrrBeth/classification-MNISTDD",
-        desc: "Using a deep neural network to create a model that classify the digits on the dataset images and predict digits' position. The Classification accuracy can reach up to 99.63% and detection IoU around 95% under the time of 23.28 using GPU.",
+        name: "Customer behavior segmentation by K-Means Clustering",
+        tags: [{name: "Machine Learning", color: "pink"}, {name: "Unsupervised Learning", color: "lightblue"}, {name: "Clustering Algorithm", color: "#83ccbb"}],
+        github: "https://github.com/Hansh-1484519/customer-segmentation/blob/main/clustering_algorithm.ipynb",
+        desc: "Using K-Means clustering algorithm to create a model that classify the segments of customers based on available sales data. Many fruitful outcomes has been taken after exploratory data analysis and formed segments can be recognised to make customer specific information.",
         demo: {
             image: mnist_image,
-            half: true,
             name: "EXAMPLE"
         },
         half: true,
-        features: ["Image Detection", "Image Classification"],
-        techs: ["Python", "Pytorch", "Numpy", "Deep Neural Network", "Convolutional Neural Network"],
+        features: ["Customer Segmentation", "Clusters formation"],
+        techs: ["Python", "Numpy","Seaborn","Matplotlib", "Clustering algorithm","Unsupervised learning", "K-Means Clustering"],
     },
-    {
+   /* {
         id: 2,
         name: "Siblings Story",
         tags: [{name: "Game Development", color: "lightgreen"}, {name: "RPG Maker", color: "#c783cc"}],
@@ -49,4 +48,5 @@ export const othprjData = [
         features: ["Chatting", "Get information", "Artificially intelligent"],
         techs: ["Python", "Pytorch", "Numpy", "Deep Neural Network", "Convolutional Neural Network"],
     },
+    */
 ]

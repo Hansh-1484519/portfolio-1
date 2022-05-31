@@ -60,7 +60,7 @@ const Project = () => {
                         }
                     </div>
                 </div>
-                <div className="colDivider">
+            {/*    <div className="colDivider">
                     <div className="subNav" > MOBILE DEVELOPMENT PROJECTS</div>
                     <div style={{display:"flex", flexDirection: "column"}}  id="mobileprj">
                         {
@@ -103,7 +103,7 @@ const Project = () => {
                             ))
                         }
                     </div>
-                </div>
+                    </div> */}
                 <div className="colDivider">
                     <div className="subNav" id="otherprj">Other Projects</div>
                     <div style={{display:"flex", flexDirection: "column"}}>

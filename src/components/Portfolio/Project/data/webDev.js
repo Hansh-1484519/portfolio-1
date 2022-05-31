@@ -1,23 +1,24 @@
 import fgtb_desktopDemo from "../../../../images/project/fgtb_desktopDemo.gif";
 import fgtb_mobileDemo from "../../../../images/project/fgtb_mobileDemo.gif";
+import awswebDemo from "../../../../images/project/awsweb.gif";
 
 export const wbprjData = [
     {
         id: 1,
-        name: "Forgettable",
-        github: "https://github.com/WenrrrBeth/forgettable",
+        name: "React_blog",
+        github: "https://github.com/Hansh-1484519/react_blog_site_UI",
         website: "",
-        desc: "Full Stack MERN CRUD Project that allows clients to share images. It enables feature like saving and sharing daily events with pictures, texts, and tags as well as exploration of other's posts in the form of image grid",
+        desc: "This is Full Stack MERN CRUD Project that allows users to share blog posts. It enables feature like posting and updating daily posts with pictures, texts, and tags as well as exploration of other's posts.",
         desktopGif: fgtb_desktopDemo,
-        mobileGif: fgtb_mobileDemo,
+        mobileGif: "",
         features: [
-            "Login/Signup/Google login",
+            "Login/Signup",
             "Upload images",
             "Sharing images/texts/tags",
-            "Saving other's shared images",
-            "Author may see the number of saves (only visible to the author who post it)",
+            "Updating previously shared posts",
+            "Author may see the number of post (only visible to the author who post it)",
             "Save personal images/texts/tags (will not be shared in Home)",
-            "Image Grid",
+            "Posts Grid",
         ],
         techs: [
             "JavaScript",
@@ -34,22 +35,42 @@ export const wbprjData = [
     },
     {
         id: 2,
-        name: "Local4Local",
-        github: "https://github.com/Hackathon401/loco4local",
-        website: "",
-        desc: "Full Stack CRUD Project that allows clients to share local businessess. It provides a platform for small businesses to be discovered and promoted by allowing clients to share images on the products that they want to sell.",
+        name: "smart_notes",
+        github: "https://hansh-1484519.github.io/smart_notes/",
+        website: "https://hansh-1484519.github.io/smart_notes/",
+        desc: "It's a cool note taking app. It has full CRUD functionality to create a note, to modify the notes at any sessions. It uses only local storage to do all these task.",
         desktopGif: "",
         mobileGif: "",
         features: [
-            "Google login",
-            "Upload images",
-            "Sharing seller's product",
-            "Browsing other businessess",
+            "Notes Creation",
+            "Notes Updation",
+            "Local Storage for notes saving",
+            "Notes Deletion",
         ],
         techs: [
-            "Python",
-            "Django",
-            "SQLite"
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        id: 3,
+        name: "Awesome-website",
+        github: "https://hansh-1484519.github.io/Awesome_Projects/#",
+        website: "",
+        desc: "Learning the code, by doing and figuring out challenges, solving problems is the main part of your programming journey. Just do it !! and so this simple webpage is designed to practice Html and css skills",
+        desktopGif: awswebDemo,
+        mobileGif: "",
+        features: [
+            "Responsive layout",
+            "Card design",
+            "Single page layout",
+            "Simplistic design",
+        ],
+        techs: [
+            "JavaScript",
+            "HTML",
+            "CSS"
         ]
     }
 ]

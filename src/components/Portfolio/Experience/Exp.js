@@ -36,7 +36,7 @@ const Exp = () => {
                                     <ul>
                                         {
                                             exp.descs.map((desc) => (
-                                                <li style={exp.descs.length>=3 ? {fontFamily: "'Quattrocento', serif", marginBottom: "10px",textAlign: "left", fontSize: "16px"} : {fontFamily: "'Quattrocento', serif", marginBottom: "15px", textAlign: "left", fontSize: "18px"}}>{desc}</li>
+                                                <li style={exp.descs.length>=3 ? {fontFamily: "'Quattrocento', serif", marginBottom: "10px",textAlign: "left", fontSize: "16px"} : {fontFamily: "'Quattrocento', serif", marginBottom: "15px", textAlign: "left", fontSize: "16px"}}>{desc}</li>
                                             ))
                                         }
                                     </ul>
