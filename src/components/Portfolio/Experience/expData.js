@@ -1,6 +1,4 @@
 import uofAHospital from "../../../images/employer/uofahospital-logo.png";
-import teamupsci from "../../../images/employer/teamup-logo.png";
-import intrap from "../../../images/employer/intrap-logo.png";
 import ghostlab from "../../../images/employer/Ghostlab-logo.jpg";
 
 export const expData = [

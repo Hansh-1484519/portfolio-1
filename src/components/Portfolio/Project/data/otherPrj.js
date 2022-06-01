@@ -1,6 +1,4 @@
 import mnist_image from "../../../../images/project/MNIST-demo.png";
-import siblingsStory_demo from "../../../../images/project/siblingsStory_demo.gif";
-import chatterbox_demo from "../../../../images/project/chatterbox_demo.gif";
 
 
 export const othprjData = [

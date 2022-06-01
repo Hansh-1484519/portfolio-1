@@ -1,5 +1,4 @@
 import fgtb_desktopDemo from "../../../../images/project/fgtb_desktopDemo.gif";
-import fgtb_mobileDemo from "../../../../images/project/fgtb_mobileDemo.gif";
 import awswebDemo from "../../../../images/project/awsweb.gif";
 
 export const wbprjData = [

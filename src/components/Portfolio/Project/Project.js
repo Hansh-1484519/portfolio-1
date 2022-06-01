@@ -1,6 +1,5 @@
 import React from 'react';
 import { wbprjData } from "./data/webDev";
-import { mbprjData } from "./data/mobileDev";
 import { othprjData } from "./data/otherPrj";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import "./Project.css";

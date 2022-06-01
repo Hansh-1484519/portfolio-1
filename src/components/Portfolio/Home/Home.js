@@ -4,18 +4,14 @@ import profileImg from "../../../images/profile_img.jpeg";
 import webDevImg from "../../../images/webDev_display.jpeg";
 import mobileDevImg from "../../../images/mobile_display.jpeg";
 import otherImg from "../../../images/other_display.jpeg";
-import blogImg from "../../../images/blog_display.jpeg";
 import bdresume from "../../../files/resume_Hansh_Raj_Sharma.pdf";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
-import { useHistory } from "react-router-dom";
-import home_bg from "../../../images/home_bg2.png";
 import "./Home.css";
 
 const Home = () => {
-    const history = useHistory();
     const displays = [
         {
             img: eduImg,

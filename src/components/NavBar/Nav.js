@@ -1,21 +1,18 @@
 import React, { useState } from 'react';
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation} from "react-router-dom";
 import "./Nav.css";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import bdresume from "../../files/resume_Hansh_Raj_Sharma.pdf";
 import { NavHashLink } from 'react-router-hash-link';
-import { Link } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import { IconButton } from '@mui/material';
-import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 
 const Nav = () => {
 
     const location = useLocation();
-    const history = useHistory();
     const path = location.hash;
 
     const [anchorEl, setAnchorEl] = useState(null)
