@@ -14,7 +14,7 @@ const Contact = () => {
             </div>
             <div className="connectInfo" style={{alignSelf: "center"}}>
                 <div className="email">
-                    <strong>email:</strong><a href="mailto:hanshrajsharmamax360@gmail.com" className="myemail">hanshrajsharmamax360@gmail.com</a>
+                <strong>email:</strong><a href="mailto:hanshrajsharmamax360@gmail.com" className="myemail">hanshrajsharmamax360@gmail.com</a>
                 </div>
                 <div className="media">
                     <a href="https://www.linkedin.com/in/hansh-raj-sharma-239854190/"><LinkedInIcon className="mediaIcon linkedIn" /></a>
@@ -24,7 +24,6 @@ const Contact = () => {
             </div>
             <footer>
                 <p style={{fontWeight: 600, fontFamily: "'Quattrocento', serif", marginBottom: "-3px", width: "100%"}}>© 2022 Hansh Raj Sharma</p>
-                <a href="https://www.icons8.com" style={{fontFamily: "'Arya', sans-serif", color: "black", fontWeight: "200", fontSize: "13px"}}></a>
             </footer>
         </div>
     )
