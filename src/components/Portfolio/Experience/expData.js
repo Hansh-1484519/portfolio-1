@@ -33,7 +33,7 @@ export const expData = [
             "Understood backend development and api development."
         ]
     },
-    {
+  /*  {
         id: 2,
         employer: "TeamUp Science",
         employerImg: {
@@ -60,5 +60,5 @@ export const expData = [
             "Help with game room puzzle designing",
             "Interacted and guided the players with introductions, instructions, and hints to help them solve the puzzles and escape the room."
         ]
-    },
+    }, */
 ]
