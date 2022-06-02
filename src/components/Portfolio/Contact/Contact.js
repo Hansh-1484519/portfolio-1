@@ -9,7 +9,6 @@ const Contact = () => {
             <div className="headerContainer">
                 <div className="header" style={{marginTop: "-30px", marginBottom: "30px"}}>
                     <p className="headerTitle" >Contact</p>
-                    <p> New </p>
                 </div>
                 {/* <div className="divider" style={{zIndex: "100"}}></div> */}
             </div>
