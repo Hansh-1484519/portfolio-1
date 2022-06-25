@@ -15,8 +15,8 @@ function App() {
         {/*  <Switch>
             <Route path="/portfolio" component={Portfolio} />
           </Switch>
-  */}
-        <Portfolio/>
+      */}
+          <Portfolio/>
         </BrowserRouter>
       </header>
     </div>
